@@ -3,7 +3,7 @@ function tocaSom(idElementoAudio){
     document.querySelector(idElementoAudio).play();
 }
 //criando a referência constante ListadeTeclas e buscando a classe.
-const ListadeTeclas = document.querySelectorAll ('.tecla');
+const ListadeTeclas = document.querySelectorAll('.tecla');
 //criação de repetição
 
 for(let contador = 0;contador < ListadeTeclas.length;contador++) {
