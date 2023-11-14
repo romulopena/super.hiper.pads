@@ -6,7 +6,7 @@ function tocaSom(idElementoAudio){
 const ListadeTeclas = document.querySelectorAll('.tecla');
 //criação de repetição
 
-for(let contador = 0;contador < ListadeTeclas.length;contador++) {
+for(let contador = 0;contador < ListadeTeclas.length;contador++){
     const teclas = ListadeTeclas[contador];
     const efeito = teclas.classList[1];
     const idAudio = `#som_${efeito}`;
